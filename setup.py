@@ -69,7 +69,7 @@ ext = '.pyx' if USE_CYTHON else '.c'
 # the compilation of the interpreter. See http://bugs.python.org/issue21121 for
 # details. This acts as a workaround until the next Python 3 release -- thanks
 # Wolfgang Maier (wolma) for the workaround!
-ssw_extra_compile_args = ['-Wno-error=declaration-after-statement']
+ssw_extra_compile_args = ['']#-Wno-error=declaration-after-statement']
 
 # Users with i686 architectures have reported that adding this flag allows
 # SSW to be compiled. See https://github.com/biocore/scikit-bio/issues/409 and
